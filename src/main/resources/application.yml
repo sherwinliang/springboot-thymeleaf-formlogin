@@ -1,0 +1,13 @@
+spring:
+  thymeleaf:
+    cache: false
+    mode: HTML
+    encoding: UTF-8
+    prefix: classpath:/templates/
+server:
+  port: 8080
+  servlet:
+    context-path: /my-app
+test:
+  username: admin
+  password: 123456
